@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Learning/coding/AI%2CML%2CDS%2CDL/MLFlow%2C%20Dagshub%2C%20BentoML/MLFlow/mlruns/0/7ce6030a1d364e3fb52ced0bd31760d1/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ce6030a1d364e3fb52ced0bd31760d1
+run_name: thoughtful-toad-58
+run_uuid: 7ce6030a1d364e3fb52ced0bd31760d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750756815745
+status: 1
+tags: []
+user_id: abhij
