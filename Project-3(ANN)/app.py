@@ -9,13 +9,13 @@ import pickle
 model = tf.keras.models.load_model('Project-3(ANN)/model.h5')
 
 # Load the encoders and scaler
-with open('label_encoder_gender.pkl', 'rb') as file:
+with open('Project-3(ANN)/label_encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
 
-with open('onehot_encoder_geo.pkl', 'rb') as file:
+with open('Project-3(ANN)/onehot_encoder_geo.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open('scaler.pkl', 'rb') as file:
+with open('Project-3(ANN)/scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 
