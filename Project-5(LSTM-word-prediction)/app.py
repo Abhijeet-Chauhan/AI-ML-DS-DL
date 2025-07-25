@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 #Load the LSTM Model
-model=load_model('Project-5(LSTM-word-prediction)/next_word_lstm.h5')
+model=load_model('Project-5(LSTM-word-prediction)/my_model.keras')
 
 #3 Laod the tokenizer
 with open('Project-5(LSTM-word-prediction)/tokenizer.pickle','rb') as handle:
