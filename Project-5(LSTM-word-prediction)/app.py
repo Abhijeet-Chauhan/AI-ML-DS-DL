@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 model=load_model('next_word_lstm.h5')
 
 #3 Laod the tokenizer
-with open('tokenizer.pickle','rb') as handle:
+with open('Project-5(LSTM-word-prediction)/tokenizer.pickle','rb') as handle:
     tokenizer=pickle.load(handle)
 
 # Function to predict the next word
